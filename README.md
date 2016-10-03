@@ -4,6 +4,7 @@
 ## 슬라이드
 
 * [첫 세미나 전 준비단계](https://docs.google.com/presentation/d/1ou3VSP4lbhVhV2f0NT29ZO0slZhoKJ1IvYmg8wRjwUQ/edit?usp=sharing)
+* [첫 세미나 - 준비와 자바에 대한 기본적인 소개](https://docs.google.com/presentation/d/1cY_18Mp9G1PjTSY3h1OzFcwzhRy25HfWm-KdCGWgR7A/edit?usp=sharing)
 
 ## 소개
 
