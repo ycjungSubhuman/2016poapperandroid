@@ -14,4 +14,14 @@ public class Adder extends BinaryOperator {
     public String toString() {
         return String.format("%d + %d", getLeft(), getRight());
     }
+
+    @Override
+    public String getExample() {
+        return "a + b";
+    }
+
+    @Override
+    public int getDifficulty() {
+        return 1;
+    }
 }

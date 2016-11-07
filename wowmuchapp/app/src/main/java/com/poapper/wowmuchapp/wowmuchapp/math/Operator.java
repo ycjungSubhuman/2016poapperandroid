@@ -6,4 +6,6 @@ package com.poapper.wowmuchapp.wowmuchapp.math;
 
 public interface Operator {
     int apply();
+    String getExample();
+    int getDifficulty();
 }

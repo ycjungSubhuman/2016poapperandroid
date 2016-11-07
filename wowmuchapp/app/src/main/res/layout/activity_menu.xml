@@ -15,8 +15,15 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:gravity="center"
-        android:text="Stub"
+        android:text="Select Level"
         android:textSize="20pt"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_levels"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_select_lvl"
         />
 
 </RelativeLayout>

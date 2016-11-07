@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="2dp"
+    android:layout_marginRight="2dp"
+    android:padding="10dp"
+    android:clickable="true"
+    android:background="?android:attr/selectableItemBackground"
+    android:layout_height="80dp">
+
+    <TextView
+        android:id="@+id/tv_difficulty"
+        android:layout_width="80dp"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="3"
+        android:textSize="20pt"
+        android:background="#CCdd3333"
+        android:layout_marginRight="5dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/tv_operator"
+        android:layout_width="match_parent"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:text="a+b*c"
+        android:textSize="16pt"
+        android:layout_marginLeft="5dp"
+        android:background="#CC331111"
+        android:layout_height="match_parent" />
+
+
+
+</LinearLayout>

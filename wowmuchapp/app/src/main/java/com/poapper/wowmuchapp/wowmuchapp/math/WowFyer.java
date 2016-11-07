@@ -14,4 +14,15 @@ public class WowFyer extends BinaryOperator {
     public String toString() {
         return String.format("(59/60) * %d + %d", getLeft(), getRight());
     }
+
+    @Override
+    public String getExample() {
+        return "(59/60) * a + b";
+    }
+
+    @Override
+    public int getDifficulty() {
+        return 4;
+    }
 }
+
