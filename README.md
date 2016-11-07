@@ -7,6 +7,7 @@
 * [첫 세미나 - 준비와 자바에 대한 기본적인 소개](https://docs.google.com/presentation/d/1cY_18Mp9G1PjTSY3h1OzFcwzhRy25HfWm-KdCGWgR7A/edit?usp=sharing)
 * [둘째 세미나 - 뷰와 액티비티](https://docs.google.com/presentation/d/1WoA9XndTEyRBw6Cnx2adRWm7QktgKhjS29-BrXBlxCk/edit?usp=sharing)
 * [3rd Seminar - List](https://docs.google.com/presentation/d/19zageDxSfJwTuvZsIcESxpo80ThioVU0ugGJQQqz2xQ/edit?usp=sharing)
+
 ## 소개
 
 **와우! 2016 2학기 포애퍼 안드로이드 세미나 모임에 잘 오셨습니다!**  
