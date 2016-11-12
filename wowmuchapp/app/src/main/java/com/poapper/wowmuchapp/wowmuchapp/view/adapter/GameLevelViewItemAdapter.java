@@ -1,11 +1,16 @@
 package com.poapper.wowmuchapp.wowmuchapp.view.adapter;
 
+import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.AdapterView;
 import android.widget.TextView;
 
+import com.poapper.wowmuchapp.wowmuchapp.GameActivity;
+import com.poapper.wowmuchapp.wowmuchapp.MenuActivity;
 import com.poapper.wowmuchapp.wowmuchapp.R;
 import com.poapper.wowmuchapp.wowmuchapp.view.item.GameLevelViewItem;
 
@@ -15,7 +20,7 @@ import java.util.List;
  * Adapter for GameLevelViewItem to be shown on a recycler view
  */
 
-public class GameLevelViewItemAdapter extends RecyclerView.Adapter<GameLevelViewItemAdapter.ViewHolder>{
+public class GameLevelViewItemAdapter extends RecyclerView.Adapter<GameLevelViewItemAdapter.ViewHolder> {
 
     //Actual data
     List<GameLevelViewItem> itemList;
@@ -47,7 +52,7 @@ public class GameLevelViewItemAdapter extends RecyclerView.Adapter<GameLevelView
 
     //Holds references to view inside item view
     //With this holder, we do not need to re-search for the views of items every tiem we use it.
-    class ViewHolder extends RecyclerView.ViewHolder {
+    class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
         public TextView difficultyView;
         public TextView operatorView;
 
@@ -55,6 +60,19 @@ public class GameLevelViewItemAdapter extends RecyclerView.Adapter<GameLevelView
             super(view);
             difficultyView = (TextView) view.findViewById(R.id.tv_difficulty);
             operatorView = (TextView) view.findViewById(R.id.tv_operator);
+            view.setOnClickListener(this);
+        }
+
+        @Override
+        public void onClick(View v) {
+            GameLevelViewItem item = itemList.get(getLayoutPosition());
+
+            //TODO: send item to new Activity
+
+            //Call GameActivity
+            Context context = v.getContext();
+            Intent intent = new Intent(context, GameActivity.class);
+            context.startActivity(intent);
         }
     }
 }
