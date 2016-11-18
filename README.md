@@ -7,7 +7,8 @@
 * [첫 세미나 - 준비와 자바에 대한 기본적인 소개](https://docs.google.com/presentation/d/1cY_18Mp9G1PjTSY3h1OzFcwzhRy25HfWm-KdCGWgR7A/edit?usp=sharing)
 * [둘째 세미나 - 뷰와 액티비티](https://docs.google.com/presentation/d/1WoA9XndTEyRBw6Cnx2adRWm7QktgKhjS29-BrXBlxCk/edit?usp=sharing)
 * [셋째 세미나 - List](https://docs.google.com/presentation/d/19zageDxSfJwTuvZsIcESxpo80ThioVU0ugGJQQqz2xQ/edit?usp=sharing)
-* [셋째 세미나 - 스레드](https://docs.google.com/presentation/d/1cuJPa4ePGc6hOeTNhrpypZ3I76VF46tGgKOH_Wni0gE/edit?usp=sharing)
+* [4th 세미나 - 스레드](https://docs.google.com/presentation/d/1cuJPa4ePGc6hOeTNhrpypZ3I76VF46tGgKOH_Wni0gE/edit?usp=sharing)
+* [5th Seminar - Network](https://docs.google.com/presentation/d/1FPJS458tkFuJzBxv7Gzb9MKID5aUJdU8ueNLPhMLYic/edit?usp=sharing)
 
 ## 소개
 
