@@ -1,55 +1,27 @@
 package com.poapper.wowmuchapp.wowmuchapp;
 
-import android.content.DialogInterface;
+import android.net.Uri;
+import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.View;
-import android.widget.TextView;
 
-import com.poapper.wowmuchapp.wowmuchapp.math.Adder;
-import com.poapper.wowmuchapp.wowmuchapp.math.Subtractor;
-import com.poapper.wowmuchapp.wowmuchapp.math.WowFyer;
-import com.poapper.wowmuchapp.wowmuchapp.view.adapter.GameLevelViewItemAdapter;
-import com.poapper.wowmuchapp.wowmuchapp.view.item.GameLevelViewItem;
+import com.poapper.wowmuchapp.wowmuchapp.view.adapter.MenuPagerAdapter;
 
-import java.util.ArrayList;
-import java.util.List;
+public class MenuActivity extends AppCompatActivity implements LevelFragment.OnFragmentInteractionListener {
 
-public class MenuActivity extends AppCompatActivity {
-
-    RecyclerView recyclerView;
+    ViewPager pager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        //find Recycler View in Layout
-        recyclerView = (RecyclerView) findViewById(R.id.rv_levels);
-
-        /* Sets recyclerView's LayoutManager */
-        recyclerView.setLayoutManager(new LinearLayoutManager(this)); //Default Linear Layout Manager
-
-        /* Sets recyclerView's Data/Adapter*/
-        List<GameLevelViewItem> items = new ArrayList<>();
-        //put dymmy items into list
-        putDummyGameLevels(items);
-        GameLevelViewItemAdapter adapter = new GameLevelViewItemAdapter(items);
-        recyclerView.setAdapter(adapter);
+        pager = (ViewPager) findViewById(R.id.pager);
+        pager.setAdapter(new MenuPagerAdapter(this));
     }
 
-    private void putDummyGameLevels(List<GameLevelViewItem> items) {
-        items.add(new GameLevelViewItem(new Adder()));
-        items.add(new GameLevelViewItem(new Subtractor()));
-        items.add(new GameLevelViewItem(new WowFyer()));
-        items.add(new GameLevelViewItem(new Adder()));
-        items.add(new GameLevelViewItem(new WowFyer()));
-        items.add(new GameLevelViewItem(new Subtractor()));
-        items.add(new GameLevelViewItem(new Subtractor()));
-        items.add(new GameLevelViewItem(new Subtractor()));
-        items.add(new GameLevelViewItem(new WowFyer()));
-        items.add(new GameLevelViewItem(new WowFyer()));
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+        
     }
 }

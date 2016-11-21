@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_menu"
     android:layout_width="match_parent"
@@ -10,20 +11,9 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.poapper.wowmuchapp.wowmuchapp.MenuActivity">
 
-    <TextView
-        android:id="@+id/tv_select_lvl"
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
         android:layout_width="match_parent"
-        android:layout_height="80dp"
-        android:gravity="center"
-        android:text="Select Level"
-        android:textSize="20pt"
-        />
-
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv_levels"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_below="@id/tv_select_lvl"
-        />
+        android:layout_height="match_parent" />
 
 </RelativeLayout>
