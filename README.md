@@ -9,6 +9,7 @@
 * [셋째 세미나 - List](https://docs.google.com/presentation/d/19zageDxSfJwTuvZsIcESxpo80ThioVU0ugGJQQqz2xQ/edit?usp=sharing)
 * [4th 세미나 - 스레드](https://docs.google.com/presentation/d/1cuJPa4ePGc6hOeTNhrpypZ3I76VF46tGgKOH_Wni0gE/edit?usp=sharing)
 * [5th Seminar - Network](https://docs.google.com/presentation/d/1FPJS458tkFuJzBxv7Gzb9MKID5aUJdU8ueNLPhMLYic/edit?usp=sharing)
+* [6th Seminar - Fragments](https://docs.google.com/presentation/d/1UVZrgReRy_TOEStUt2IWn1nF9zaBsKAvautWBVChHOA/edit?usp=sharing)
 
 ## 소개
 
